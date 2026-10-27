@@ -6,10 +6,8 @@ configuration:
   enablePopovers: true
   analytics: null
   locale: zh-CN
-  # ⚠️ 上线前必改：改成你自己的地址，格式为 用户名.github.io/仓库名
-  # 例如 GitHub 用户名是 zhangsan、仓库叫 notes，就填 zhangsan.github.io/notes
-  # 不要带 https:// 前缀和首尾斜杠
-  baseUrl: your-username.github.io/your-repo
+  # 站点地址：用户名同名仓库（rui3394.github.io）部署在根域名，不需要子路径
+  baseUrl: rui3394.github.io
   ignorePatterns:
     - private
     - templates
@@ -207,7 +205,7 @@ plugins:
     options:
       links:
         Quartz 官网: https://quartz.jzhao.xyz
-        GitHub 仓库: https://github.com/your-username/your-repo
+        GitHub 仓库: https://github.com/rui3394/rui3394.github.io
     layout:
       position: footer
       priority: 50
